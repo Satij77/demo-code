@@ -1,0 +1,73 @@
+.student-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .student-list li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .student-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .student-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .student-table th,
+  .student-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .student-table th {
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .student-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .student-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .student-table button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .student-table button:hover {
+    background-color: #0056b3;
+  }
+  
